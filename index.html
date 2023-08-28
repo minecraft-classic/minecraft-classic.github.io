@@ -1,75 +1,183 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Idle Breakout - Play Idle Breakout Unblocked Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Play Idle Breakout Unblocked game at school and work. This is a brick-busting machine to destroy billions of bricks. Play Now!">
-    <meta name="keywords" content="idle breakout, idle breakout online, play idle breakout, idle breakout game, idle breakout unblocked">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/style/style.css?1">
-    <link rel="shortcut icon" href="/style/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://idle-breakout.github.io">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.min.js"></script>
-    <meta name="msvalidate.01" content="1EF4EE1856E0B0935D60CE246F06EAF8" />
-    <meta name="google-site-verification" content="_7998NIKnejlZSKfhLfF760kY1dLbqHjqy1SXzpXRN8" />
+    <meta charset="utf-8">
+    <title>Admin - Veterans Tribute Career & Technical Academy</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="Mon, 28 Aug 2023 10:34:59 PDT">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+
+<!-- ISUIBETA:  -->
+
+<link href="/apps/webapps/next/features/login/css/login-pack-1692990426482.css"
+type="text/css" rel="stylesheet">
+<link href="/apps/webapps/next/global/admin/css/cms-ui-pack-1692990426482.css"
+type="text/css" rel="stylesheet">
+<script src="/apps/webapps/next/features/login/js/login-pack-1692990426482.js" charset="utf-8"></script>
+<script src="/apps/webapps/../js/analytics/edlio-analytics-pack-1692990426482.js" charset="utf-8"></script>
+
+
+
+        <script src="/apps/webapps/features/google-analytics/js/analytics-service-pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      if (!window.edlio) {
+        window.edlio = {};
+      }
+
+      window.edlio.captchaIsActive = true;
+      window.edlio.authIsSso = false;
+
+        //This listener is a fallback in case that the onload and onerror is not supported by the web browser
+        window.addEventListener("load", event => {
+          var image = document.getElementById('school-logo');
+          var schoolTitle = document.getElementById('school-title');
+          var isLoaded = image.complete && image.naturalHeight !== 0;
+          if (isLoaded) {
+              image.style.display = "block";
+              schoolTitle.style.display = "none";
+          } else {
+              image.style.display = "none";
+              schoolTitle.style.display = "block";
+          }
+        });
+
+      function toggleTitle(showTitle) {
+          var image = document.getElementById('school-logo');
+          var schoolTitle = document.getElementById('school-title');
+          image.style.display = showTitle ? "none" : "block";
+          schoolTitle.style.display = showTitle ? "block" : "none";
+      }
+    </script>
+        <script src="/apps/js/common/gRecaptchaUtils.js" type="text/javascript"></script>
+        <script
+                src='https://www.google.com/recaptcha/api.js?hl=EN&onload=adminLoginRecaptchaOnload&render=explicit'
+                async defer
+        ></script>
 </head>
 <body>
-<div class="wrapper mx-auto">
-    <div class="container-fluid">
-        <div class="row my-2">
-            <div class="col text-center">
-                <a href="/">
-                    <img src="/style/logo.png" alt="Idle Breakout" class="img-fluid" width="900px" height="150px" id="logo">
-                </a>
-            </div>
-        </div>
-        <div class="row bg-light rounded">
-            <div class="col p-3 text-center">
-                <div class="google-ads-type-2-banner mx-auto">
-					
-                </div>
-                <h1>Idle Breakout - Play Idle Breakout Unblocked at School</h1>
-                <div class="container-fluid mt-4 p-0">
-                    <div class="row">
-                        <div class="col cpm_left p-0 m-0" style="max-width: 162px">
-                            <div class="ml-auto" style="width: 160px;">
-								
-                            </div>
-                        </div>
-                        <div class="col text-center p-0 m-0">
-                            <div id="game">
-                                <div class="mx-auto" style="width: 1024px; height: 768px; overflow: hidden;">
-                                    <iframe width="100%" height="100%" src="/games/idle-breakout/index.html" frameborder="0" border="0" scrolling="no" class="" allowfullscreen></iframe>
+<div class="edlio cms">
+    <div class="content">
+        <div class="login-card">
+            <div class="card-body">
+                            <section class="login">
+                                <header>
+                                    <a id="school-link-logo" href="http://www.vtcta.org" target="_blank" >
+                                            <img id="school-logo" src="/pics/VETTCTA_LOGO.gif" alt="Veterans Tribute Career & Technical Academy" class="school-logo" onerror="toggleTitle(true)" onload="toggleTitle(false)">
+                                    </a>
+                                </header>
+
+
+<uniform-notification
+        class="alert notification"
+        style="display:none;"
+        id="captcha-failure-notification"
+>
+    <svg class="icon" viewBox="0 0 2048 2048">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/apps/webapps/next/global/blazer/icons/icons.svg#warning"></use>
+    </svg>
+    <div class="message">
+        Complete the CAPTCHA to continue
+    </div>
+</uniform-notification>
+
+                                <form method="POST" name="loginForm" id= "loginForm" action="/apps/login/">
+                                    <label for="username">
+                                            Username / Email
+                                    </label>
+                                    <input required type="text" id="username" name="username" value="" autocomplete="off" autofocus/>
+                                    <div class="password-holder">
+                                        <label for="password">Password</label>
+                                        <input required type="password" id="password" name="password" autocomplete="off" />
+                                        <div class="password-show-option">
+                                            <input type="checkbox" id="show_password" name="show_password" checked>
+                                            <label id="show_password_wrapper" for="show_password" onClick="togglePasswordView()">Show</label>
+                                        </div>
+                                    </div>
+                                    <div class="login-options">
+												<span class="checkbox">
+													<input type="checkbox" id="rememberme" name="rememberme" value="1" checked>
+													<label for="rememberme">Remember Me</label>
+												</span>
+                                            <a href="#" onClick="forgotPassword()">Create or Reset Password</a>
+                                    </div>
+                                        <div class="g-recaptcha recaptcha-invisible main-recaptcha"
+                                             data-sitekey="6Ld6P58aAAAAAKRkwJdJNRJOBZzFzPhBvgBpt8hx"
+                                             data-callback="recaptchaOnSubmit"
+                                             data-size="invisible">
+                                        </div>
+                                    
+                                    <input
+                                            type="submit"
+                                            class="submit button submit-invisible"
+                                            value="Sign In" />
+
+                                        <div class="recaptcha-branding">
+                                            Protected by reCAPTCHA -
+                                            <a href="https://policies.google.com/privacy" target="_blank">Privacy</a> -
+                                            <a href="https://policies.google.com/terms" target="_blank">Terms</a>
+                                        </div>
+
+                                    <div class="support">
+                                        <svg class="icon" viewBox="0 0 2048 2048">
+                                            <use xlink:href="/apps/svg/icons.svg#question-circle"></use>
+                                        </svg>
+                                        Need help? <a href="https://help.edlio.com/login-help/" target="_blank" ><u>Troubleshooting and Support</u></a>
+                                    </div>
+                                <closeform></closeform></form>
+                            </section>
+                            <section class="forgot-password">
+                                <div class="username-input">
+                                    <form id="forgotPassWordForm" method="POST" action="/apps/login/recover/password" autocomplete="off">
+                                        <header>
+                                            <a href="#" onClick="returnSignIn()"><u>< Return to Sign In form</u></a>
+                                            <span>Create or Reset Password</span>
+                                        </header>
+                                        <div class="forgot-pwd-hint">
+                                            <span>Email yourself steps to set or change password</span>
+                                        </div>
+                                        <div>
+                                            <label for="username">Username / Email</label>
+                                            <input type="text" name="username" id="password_username" />
+                                                <div class="g-recaptcha recaptcha-invisible pass-reset-recaptcha"
+                                                     data-sitekey="6Ld6P58aAAAAAKRkwJdJNRJOBZzFzPhBvgBpt8hx"
+                                                     data-callback="recaptchaResetPassOnSubmit"
+                                                     data-size="invisible">
+                                                </div>
+                                            <input
+                                                    type="submit"
+                                                    class="submit button submit-invisible"
+                                                    value="Send Email"
+                                            />
+                                                <div class="recaptcha-branding">
+                                                    Protected by reCAPTCHA -
+                                                    <a href="https://policies.google.com/privacy" target="_blank">Privacy</a> -
+                                                    <a href="https://policies.google.com/terms" target="_blank">Terms</a>
+                                                </div>
+                                        </div>
+                                    <closeform></closeform></form>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col cpm_right p-0 m-0" style="max-width: 162px">
-                            <div class="mr-auto" style="width: 160px;">
-								
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row my-3">
-                        <div class="col text-left">
-                            <h2 class="my-4 text-center">Description</h2>
-                            <p>Idle Breakout modernizes the Atari classic Game. Classic breakout for the Atari was a superb game. This modern idle game, however, takes the genre to the next level. During the game, you have to click the colored blocks to earn cash. Each block you click earns you a set fee - this can be upgraded. You can then use the cash to purchase breakout balls and upgrades so that you can smash the blocks faster.</p>
-                            <p>For being an idle game that doesn’t take much effort on the players’ part, there is a surprising amount of strategy that goes into Idle Breakout. While there are many different strategies, we recommend that you don’t try and hoard your money too much. Start off with buying a few of the basic balls, and then work your way up to the plasma balls, the second cheapest option. Spending your money quickly tends to be efficient, and when it is financially feasible to buy the next upgrade then go for it.</p>
-                            <p>All the balls inside this game can be randomly added, and the more money you get, the more balls you can add. Since everything is idly done, you can sit and watch as the gameplay unfolds in front of your eyes. The game also has upgrades for speed, power and click speed. This is pushing the boundaries and it allows you to improve how you play, while having a whole lot of fun all the time.</p>
-                            <h3>Controls</h3>
-                            <p>Just click on a brick to break it and score points. Use points to purchase new balls with different abilities and upgrade them. Balls will automatically bounce and break bricks to score more points.</p>
-                        </div>
-                    </div>
-                </div>
+                            </section>
+            </div>
+            <a href="http://www.edlio.com/?src=admin-foot-copy" id="foot_poweredby" target="_blank" >
+                <svg>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/apps/webapps/next/global/blazer/icons/icons.svg#powered-by-edlio"></use>
+                </svg>
+            </a>
+            <div class="privacy_policy">
+                <a href="https://edlio.com/apps/pages/privacy"
+                    id="foot_privacy_policy" target="_blank">Edlio Privacy Policy</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col text-dark">
-                <p class="text-center py-3">Idle Breakout &#169; 2022</p>
-            </div>
-        </div>
+
+        <svg class="edlio-watermark-svg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/apps/webapps/next/global/blazer/icons/icons.svg#spikey"></use>
+        </svg>
     </div>
 </div>
 </body>
